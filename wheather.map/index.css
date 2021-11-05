@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(142,161,43,0.8575805322128851) 24%, rgba(45,156,151,1) 28%, rgba(47,149,143,1) 33%, rgba(48,145,138,1) 36%, rgba(60,61,51,1) 39%, rgba(50,137,129,1) 42%, rgba(53,128,118,1) 49%, rgba(57,114,101,1) 60%, rgba(62,97,81,1) 73%, rgba(87,88,65,1) 80%, rgba(73,61,38,0.804359243697479) 100%);
+    height: 100vh;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3rem;
+
+}
+.inputForm{
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+
+
+}
+.formCity,.formBtn{
+ font-size: 1rem;
+ padding: 7px 14px;
+ border: 1px solid red;
+ border-radius: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-bottom: 1rem;
+ outline: none;
+
+
+}
+
+
+.formBtn{
+    background: rgb(158, 55, 55);
+     color:white;
+     cursor: pointer;
+     border: none;
+     transition: 0.5s ease-in-out all;
+     padding: 10px;
+     font-family: Lobster, cursive;
+
+}
+.formBtn:hover{
+    background: rgb(253, 5, 5);
+}
+
+.result{
+   padding: 1rem 0;
+   text-align: center; 
+margin-top: 2rem;
+
+}
+   .result p{
+
+    margin: 1rem 0;
+    text-align: center;
+    /* font-family: Lobster, cursive; */
+    
+
+
+   }
+   .city,.country{
+    font-size: 4rem;
+    font-family: Bebas Neue, cursive;
+
+   }
+   .temprature{
+   font-size: 4rem;
+   font-weight: 700;
+   font-family: Heebo, sans-serif;
+   }
+
+   .feelsLike {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Teko, sans-serif;
+     
+   }
+   .sky{
+      font-size: 1.5rem;
+      font-family: Yomogi, cursive;
+    
+
+   }
+   .min-max{
+    font-size: 1.1rem;
+    font-family: Staatliches, cursive;
+    
+
+   }
+
+   .map {
+       width: 100px;
+       height: auto;
+   }
+   @media (min-width:757px) {
+      .inputForm{
+          display: block;
+          text-align: center;
+
+      }   
+      .formCity{
+      margin-right: 1rem;
+      width: 375px;
+
+
+      }
+
+   }
